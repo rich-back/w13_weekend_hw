@@ -1,6 +1,8 @@
 package products;
 
-public abstract class Instrument implements IPlay{
+import management.ISell;
+
+public abstract class Instrument implements IPlay, ISell {
 
     private double purchasePrice;
     private double sellingPrice;
@@ -23,6 +25,10 @@ public abstract class Instrument implements IPlay{
 
     public InstrumentType getType() {
         return type;
+    }
+
+    public double calculateMarkup() {
+        return this.sellingPrice - this.purchasePrice;
     }
 
 

@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fd7440-2f56-4f74-84e8-04aeb913948e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/BassDrum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/Cello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/InstrumentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/products/Tuba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/products/BassDrumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/products/CelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/products/TubaTest.java" afterDir="false" />
+    <list default="true" id="73fd7440-2f56-4f74-84e8-04aeb913948e" name="Changes" comment="Added BassDrum subclass and basic tests.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/management/ISell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/products/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/products/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/products/CelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/products/CelloTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +86,49 @@
       <option name="presentableId" value="Default" />
       <updated>1674922246553</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial project set up. Added Instrument abstract class.">
+      <created>1675014178540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014178540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added InstrumentType Enum.">
+      <created>1675014213826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014213826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added IPlay interface which is implemented by the Instrument abstract class.">
+      <created>1675014292411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014292411</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Cello subclass and basic tests.">
+      <created>1675014335816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014335816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Tuba subclass and basic tests.">
+      <created>1675014346344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014346344</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added BassDrum subclass and basic tests.">
+      <created>1675014360981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675014360981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,5 +141,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project set up. Added Instrument abstract class." />
+    <MESSAGE value="Added InstrumentType Enum." />
+    <MESSAGE value="Added IPlay interface which is implemented by the Instrument abstract class." />
+    <MESSAGE value="Added Cello subclass and basic tests." />
+    <MESSAGE value="Added Tuba subclass and basic tests." />
+    <MESSAGE value="Added BassDrum subclass and basic tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BassDrum subclass and basic tests." />
   </component>
 </project>

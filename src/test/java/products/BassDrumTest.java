@@ -34,4 +34,8 @@ public class BassDrumTest {
     public void canPlay() {
         assertEquals("Bass Drum goes: Boom", drum.play());
     }
+    @Test
+    public void canGetMarkup() {
+        assertEquals(100, drum.calculateMarkup(), 0.00);
+    }
 }
